@@ -78,15 +78,13 @@ h3 {
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 0px;
-  
 }
 
 body {
   font-family: "Roboto", "sans-serif", "monospace";
-  font-color: var(--default-font-color);
 }
 
-header  {
+header {
   font-weight: 500;
   display: flex;
   justify-content: space-between;
@@ -112,7 +110,7 @@ header a {
   justify-content: space around;
   align-items: center;
 }
-.nav-2 a {
+.nav-2 {
   display: inline-flex;
   justify-content: space-between;
   margin-left: 40px;
@@ -128,17 +126,18 @@ header a {
   margin-right: 43px;
 }
 
-.header{
-padding:0;
-border-bottom: 1px solid #cecece;
+.header {
+  padding: 0;
+  border-bottom: 1px solid #cecece;
 }
 .banner {
-  padding:200px 0;
-  background-color: var(--banner-color);
+  padding: 200px 0;
+  background: url("/images/background.jpg") var(--banner-color) center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .banner button {
   width: 200px;
   height: 50px;
@@ -197,7 +196,7 @@ border-bottom: 1px solid #cecece;
 .filter-group ul {
   display: flex;
   justify-content: center;
-  margin: 0px;5
+  margin: 0px;
   border: 0px;
   padding: 0px;
   gap: 8px;
@@ -284,4 +283,41 @@ border-bottom: 1px solid #cecece;
 }
 .footer-section .logo {
   margin-bottom: 28px;
+}
+
+/* icons */
+
+.contact-icon {
+  display: flex;
+  max-width: 16px;
+  max-height: 16px;
+  padding-right: 10px;
+}
+
+.header-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 40px;
+}
+
+/* DE ADAUGAT HOVER PE ICOANE DIN HEADER */
+.trait-icon {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  padding: 25px 100px 25px 100px;
+}
+.icon-container {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.team-card .social-media-set {
+  padding: 16px 32px 30px 32px;
+  text-align: center;
+}
+.social-media-set .svg:hover {
+  background-color: var(--brand-color);
 }
