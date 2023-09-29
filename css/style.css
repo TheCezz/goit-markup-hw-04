@@ -308,16 +308,9 @@ header a {
   height: 70px;
   padding: 25px 100px 25px 100px;
 }
-.icon-container {
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
 
 .team-card .social-media-set {
   padding: 16px 32px 30px 32px;
   text-align: center;
-}
-.social-media-set .svg:hover {
-  background-color: var(--brand-color);
+  border-radius: 50%;
 }
