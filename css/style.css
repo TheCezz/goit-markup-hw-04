@@ -59,7 +59,7 @@ h1 {
 h2 {
   font-size: 36px;
   text-align: center;
-  margin: 0px;
+  margin: 0px 0px 50px 0px;
 }
 h3 {
   margin-top: 0px;
@@ -187,7 +187,7 @@ header a {
 .what-we-do ul {
   display: flex;
   justify-content: space-between;
-  padding: 50px 0 94px 0;
+  padding: 0px 0 94px 0;
   margin: 0px;
 }
 
@@ -280,7 +280,7 @@ header a {
   padding: 0;
 }
 .footer-section li {
-  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .footer-section .logo {
   margin-bottom: 28px;
@@ -303,7 +303,6 @@ header a {
   padding-left: 40px;
 }
 
-/* DE ADAUGAT HOVER PE ICOANE DIN HEADER */
 .trait-icon {
   display: flex;
   width: 70px;
@@ -314,7 +313,7 @@ header a {
   margin-bottom: 30px;
 }
 
-.team-card .social-media-set {
+.social-media-set {
   padding: 16px 32px 30px 32px;
   text-align: center;
   border-radius: 50%;
@@ -323,6 +322,83 @@ header a {
 .header-contact:hover .contact-icon {
   fill: var(--brand-color);
 }
-.header-contact a .contact-icon:hover {
-  color: var(--brand-color);
+
+.social-media-icon {
+  fill: #afb1b8;
+}
+
+.social-media-set a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-media-set a:hover {
+  background-color: var(--brand-color);
+}
+.social-media-set a:hover .social-media-icon {
+  fill: #fff;
+}
+
+.team-card {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+}
+
+.regular-customers ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.customer-logo {
+  fill: #afb1b8;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.regular-customers {
+  padding: 94px 0;
+}
+
+.customer-logo:hover {
+  fill: var(--brand-color);
+  border: 1px solid var(--brand-color);
+}
+
+.footer-section {
+  display: flex;
+}
+
+.footer-social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-section h3 {
+  color: var(--contrast-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-social-media {
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.footer-social-media .social-media-set li {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-media-set {
+  margin: 16px 32px 30px 32px;
 }
