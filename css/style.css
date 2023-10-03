@@ -82,6 +82,7 @@ h3 {
 
 body {
   font-family: "Roboto", "sans-serif", "monospace";
+  color: var(--default-font-color);
 }
 
 header {
@@ -292,6 +293,7 @@ header a {
   max-width: 16px;
   max-height: 16px;
   padding-right: 10px;
+  /* border: 2px dashed red; */
 }
 
 .header-contact {
@@ -307,6 +309,9 @@ header a {
   width: 70px;
   height: 70px;
   padding: 25px 100px 25px 100px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .team-card .social-media-set {
