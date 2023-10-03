@@ -208,6 +208,7 @@ header a {
   font-weight: 500;
   font-size: 16px;
   line-height: 163%;
+  padding: 6px 22px;
   color: var(--default-font-color);
   border: none;
 }
@@ -402,3 +403,11 @@ header a {
 .social-media-set {
   margin: 16px 32px 30px 32px;
 }
+
+/* .portfolio-items {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+} */
