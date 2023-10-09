@@ -157,7 +157,8 @@ body {
 
 .banner {
   padding: 200px 0;
-  background: url(../images/background.jpg) center no-repeat rgba(47, 48, 58, 1);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background.jpg) center no-repeat rgba(47, 48, 58, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -326,9 +327,6 @@ body {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* .portfolio-items {
-  padding-bottom: 94px;
-} */
 .portfolio-items ul {
   display: flex;
   flex-wrap: wrap;
@@ -356,7 +354,6 @@ body {
 .portoflio-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-
   cursor: pointer;
 }
 
